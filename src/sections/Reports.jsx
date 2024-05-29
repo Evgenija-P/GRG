@@ -40,7 +40,7 @@ const Reports = () => {
 
         <article className="w-full xl:w-[calc(100%-360px-120px)] border-t border-[#EEEEEE] pt-[30px] xl:px-20">
           <div className="w-full flex items-center justify-between py-6 xl:py-0">
-            <h2 className={`section__title ${isOpenLis ? "text-red" : "text-black"} mb-6`}>2022</h2>
+            <h2 className={`section__title ${isOpenLis ? "text-red" : "text-black"} mb-6`}>2023</h2>
             <button onClick={() => setIsOpenList(!isOpenLis)}>
               {isOpenLis ? <Minus /> : <Plus />}
             </button>
