@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Баланс 2023",
+    "images": ["/images/2023/balans/balans_2023.jpg", "/images/2023/balans/balans_2023.jpg"]
+  },
+  {
+    "name": "Звіт про рух грошових коштів 2023",
+    "images": [
+      "/images/2023/otchet_dvizhenie_sredstv/otchet_dvizhenie_sredstv.jpg",
+      "/images/2023/otchet_dvizhenie_sredstv/otchet_dvizhenie_sredstv_1.jpg"
+    ]
+  },
+  {
+    "name": "Звіт про власний капітал 2023",
+    "images": [
+      "/images/2023/otchet_kapital/otchet_kapital.jpg",
+      "/images/2023/otchet_kapital/otchet_kapital_1.jpg"
+    ]
+  },
+  {
+    "name": "Звіт про фінансові результати 2023",
+    "images": [
+      "/images/2023/otchet_finrezultat/otchet_finrezultat.jpg",
+      "/images/2023/otchet_finrezultat/otchet_finrezultat_1.jpg"
+    ]
+  },
+  {
+    "name": "Примітки до річної звітності 2023",
+    "images": [
+      "/images/2023/primechanie/primechnie_k_f-o.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_1.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_2.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_3.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_4.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_5.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_6.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_7.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_8.jpg",
+      "/images/2023/primechanie/primechnie_k_f-o_9.jpg"
+    ]
+  }
+]
