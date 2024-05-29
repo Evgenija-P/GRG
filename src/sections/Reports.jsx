@@ -32,9 +32,9 @@ const Reports = () => {
 
   return (
     <section className="section">
-      <div className="wrapper relative flex flex-col xl:flex-row xl:gap-x-[120px] gap-y-5">
-        <div className="section__title--before" />
-        <h2 className="max-w-[245px] xl:min-w-[360px] section__title mt-[30px] mb-[10px]">
+      <div className="wrapper relative flex flex-col xl:flex-row xl:gap-x-[120px] gap-y-5 items-center xl:items-start justify-center xl:justify-start">
+        <div className="section__title--before bg-red" />
+        <h2 className="max-w-[245px] xl:min-w-[360px] section__title my-[30px] text-center xl:text-left">
           Звітність
         </h2>
 

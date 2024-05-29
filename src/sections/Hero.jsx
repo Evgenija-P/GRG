@@ -2,8 +2,8 @@ import HeroImage from "/images/hero.jpg";
 
 const Hero = () => {
   return (
-    <section className="w-full pt-5 md:pt-10 xl:pt-[60px]">
-      <div className="wrapper ">
+    <section className="w-full pt-[100px] md:pt-20 xl:pt-[140px]">
+      <div className="wrapper">
         <img
           src={HeroImage}
           alt="Про компанію та франчайзинг KFC"

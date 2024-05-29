@@ -27,28 +27,28 @@ export const Zoom = () => (
   >
     <path
       d="M10 17C13.866 17 17 13.866 17 10C17 6.13401 13.866 3 10 3C6.13401 3 3 6.13401 3 10C3 13.866 6.13401 17 10 17Z"
-      stroke="#E8330E"
+      stroke="#e4002b"
       strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M20.9992 21L14.9492 14.95"
-      stroke="#E8330E"
+      stroke="#e4002b"
       strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M6 10H14"
-      stroke="#E8330E"
+      stroke="#e4002b"
       strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M10 6V14"
-      stroke="#E8330E"
+      stroke="#e4002b"
       strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -66,7 +66,7 @@ export const Plus = () => (
   >
     <path
       d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V11H3C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13H11V21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21V13H21C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11H13V3Z"
-      fill="#e8330e"
+      fill="#e4002b"
     />
   </svg>
 );
@@ -81,7 +81,7 @@ export const Minus = () => (
   >
     <path
       d="M2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12Z"
-      fill="#e8330e"
+      fill="#e4002b"
     />
   </svg>
 );

@@ -6,7 +6,7 @@ export default {
       colors: {
         bgLite: "#F8F8F8",
         grey: "#F2F2F2",
-        red: "#e8330e",
+        red: "#e4002b",
       },
     },
   },
