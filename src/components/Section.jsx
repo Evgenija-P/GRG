@@ -12,7 +12,7 @@ const Section = ({ item, index }) => {
         </div>
         <div className="flex flex-col gap-y-5">
           {item.texts?.map((el, index) => (
-            <p key={index} className="section__text">
+            <p key={index} className="section__text text-justify">
               {el}
             </p>
           ))}
