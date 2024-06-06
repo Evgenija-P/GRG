@@ -8,7 +8,7 @@ const Hero = () => {
           src={HeroImage}
           alt="Про компанію та франчайзинг KFC"
           loading="lazy"
-          className="w-full h-[440px] md:h-[764px] xl:h-[856px] object-cover"
+          className="w-full h-[440px] md:h-[764px] xl:h-[600px] object-cover object-bottom"
         />
       </div>
     </section>
