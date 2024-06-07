@@ -48,21 +48,38 @@ const Reports = () => {
 
           <animated.div style={animationProps}>
             <div ref={contentRef}>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-[15px]">
-                {reports.map(el => (
-                  <li key={el.name}>
-                    <button
-                      onClick={() => onOpenModal(el.name)}
-                      className="flex items-center gap-x-[15px] hover:text-red text-sm font-bold uppercase text-left"
-                    >
-                      <span className="w-[41px] h-[41px] rounded-full border-[#EEEEEE] border-[1px] flex items-center justify-center">
-                        <Zoom />
-                      </span>
-                      {el.name}
-                    </button>
-                  </li>
-                ))}
-              </ul>
+              <div className="flex flex-col gap-y-[15px] md:flex-row">
+                <ul className="gap-y-[15px] w-full md:w-1/2 flex flex-col">
+                  {reports.slice(0, 4).map(el => (
+                    <li key={el.name}>
+                      <button
+                        onClick={() => onOpenModal(el.name)}
+                        className="flex items-center gap-x-[15px] hover:text-red text-sm font-bold uppercase text-left"
+                      >
+                        <span className="w-[41px] h-[41px] rounded-full border-[#EEEEEE] border-[1px] flex items-center justify-center">
+                          <Zoom />
+                        </span>
+                        {el.name}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+                <ul className="gap-y-[15px] w-full md:w-1/2 flex flex-col">
+                  {reports.slice(4, 7).map(el => (
+                    <li key={el.name}>
+                      <button
+                        onClick={() => onOpenModal(el.name)}
+                        className="flex items-center gap-x-[15px] hover:text-red text-sm font-bold uppercase text-left"
+                      >
+                        <span className="w-[41px] h-[41px] rounded-full border-[#EEEEEE] border-[1px] flex items-center justify-center">
+                          <Zoom />
+                        </span>
+                        {el.name}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </animated.div>
         </article>
